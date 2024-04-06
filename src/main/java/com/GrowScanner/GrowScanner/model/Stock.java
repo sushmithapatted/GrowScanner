@@ -20,7 +20,7 @@ public class Stock {
     private double yearlyLowPrice;
     private double closePrice;
     private long marketCap;
-    private LivePrice livePriceDto;
+  //  private LivePrice livePriceDto;
 	public Stock() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -42,7 +42,7 @@ public class Stock {
 		this.yearlyLowPrice = yearlyLowPrice;
 		this.closePrice = closePrice;
 		this.marketCap = marketCap;
-		this.livePriceDto = livePriceDto;
+	//	this.livePriceDto = livePriceDto;
 	}
 	public String getId() {
 		return id;
@@ -122,19 +122,19 @@ public class Stock {
 	public void setMarketCap(long marketCap) {
 		this.marketCap = marketCap;
 	}
-	public LivePrice getLivePriceDto() {
-		return livePriceDto;
-	}
-	public void setLivePriceDto(LivePrice livePriceDto) {
-		this.livePriceDto = livePriceDto;
-	}
+//	public LivePrice getLivePriceDto() {
+//		return livePriceDto;
+//	}
+//	public void setLivePriceDto(LivePrice livePriceDto) {
+//		this.livePriceDto = livePriceDto;
+//	}
 	@Override
 	public String toString() {
 		return "Stock [id=" + id + ", isin=" + isin + ", growwContractId=" + growwContractId + ", companyName="
 				+ companyName + ", companyShortName=" + companyShortName + ", searchId=" + searchId + ", industryCode="
 				+ industryCode + ", bseScriptCode=" + bseScriptCode + ", nseScriptCode=" + nseScriptCode
 				+ ", yearlyHighPrice=" + yearlyHighPrice + ", yearlyLowPrice=" + yearlyLowPrice + ", closePrice="
-				+ closePrice + ", marketCap=" + marketCap + ", livePriceDto=" + livePriceDto + "]";
+				+ closePrice + ", marketCap=" + marketCap +  "]";
 	}
 	
 
